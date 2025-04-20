@@ -90,6 +90,8 @@ data "aws_ami" "amazon_linux_2" {
   }
 }
 
+# store the terraform state file in s3
+
 
 # launch the ec2 instance and install website
 resource "aws_instance" "ec2_instance" {
